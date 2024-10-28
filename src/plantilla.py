@@ -1,7 +1,6 @@
 #
-#   PLANTILLA PARA MAIN
 #
-
+#
 def main():
     pass
 
