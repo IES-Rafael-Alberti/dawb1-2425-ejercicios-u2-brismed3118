@@ -4,24 +4,17 @@
 
 def hacer_piramide(num:int) -> str:
 
-    resto = (num % 2)
     i = None
     piramide = ""
     secuencia = ""
 
-    if resto == 0:
-        i = 0
-    else:
-        i = 1
-
-    for i in range (i, num + 1, 2):
-        secuencia = str(i) + " " + secuencia
+    for i in range (1, num + 1):
+        secuencia = "*" + secuencia
         
         if i != num:
             piramide = piramide + secuencia  + "\n"
         else:
             piramide = piramide + secuencia
-        
 
     return piramide
 
