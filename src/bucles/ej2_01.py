@@ -2,7 +2,6 @@
 #
 #
 
-
 def repetir_palabra(palabra: str):
     i = None
     for i in range (0,10):

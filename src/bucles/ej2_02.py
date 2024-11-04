@@ -2,7 +2,6 @@
 #
 #
 
-
 def contar_edad(edad: int):
     i = None
     cadena = ""
